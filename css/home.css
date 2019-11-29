@@ -1,0 +1,178 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: RGB(43,43,43);
+}
+ul,
+ol {
+	list-style: none;
+}
+
+li {
+	float: left;
+}
+
+input {
+	outline: none;
+	background: none;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.h1 {
+	font-size: 22px;
+	font-weight: normal;
+}
+
+.h2 {
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.h3 {
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.h4 {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.h5 {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.h6 {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.home {
+	width: 1300px;
+	height: 580px;
+	margin: 0 auto;
+}
+
+.h3 {
+	width: 1200px;
+	margin: 0 auto;
+	height: 60px;
+	line-height: 60px;
+	font-size: 18px;
+}
+
+.box {
+	width: 1200px;
+	height: 300px;
+	margin: 30px auto;
+	position: relative;
+}
+.box:last-child{
+	margin-top: 700px;
+}
+.box ul {
+	width: 1200px;
+	height: 700px;
+	margin: 30px auto;
+	position: relative;
+	float: left;
+}
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.box ul li {
+	position: absolute;
+	/* 图片1 */
+	/* width: 379px;
+	left: 0px;
+	top: 41px;
+	opacity: 0.3;
+	z-index: 1; */
+
+	/* 图片2 */
+	/* width: 421px;
+	left: 80px;
+	top: 28px;
+	opacity: 0.6;
+	z-index: 2; */
+
+	/* 图片3 */
+	/* width: 468px;
+	left: 160px;
+	top: 15px;
+	opacity: 0.9;
+	z-index: 3; */
+
+	/* 图片4 */
+	/* width: 520px;
+	left:240px;
+	top: 0px;
+	opacity: 1;
+	z-index: 4; */
+
+	/* 图片5 */
+	/* width: 468px;
+	left: 372px;
+	top: 15px;
+	opacity: 0.9;
+	z-index: 3; */
+
+	/* 图片6 */
+	/* 
+	width: 421px;
+	left: 498px;
+	top: 28px;
+	opacity: 0.6;
+	z-index: 2; */
+
+	/* 图片7 */
+	/* width: 379px;
+	left: 620px;
+	top: 41px;
+	opacity: 0.3;
+	z-index: 1; */
+
+}
+
+.box ul li img {
+	width: 100%;
+}
+
+.box .btn {
+	width: 1200px;
+	height: 300px;
+	position: absolute;
+	margin-top: 200px;
+	z-index: 888;
+}
+
+.box .btn .pre {
+	width: 240px;
+	height: 300px;
+	float: left;
+}
+.box .btn .pre img{
+	margin: 114px 0 0 84px;
+	transform:rotate(-134deg);
+}
+.box .btn .next {
+	width: 240px;
+	height: 300px;
+	float: right;
+}.box .btn .next img{
+	margin: 114px 0 0 84px;
+	transform:rotate(46deg);
+}
